@@ -1,5 +1,5 @@
 
-obj-m := main_gpio.o
+obj-m := main.o
 
 all:
 	make -C /lib/modules/`uname -r`/build M=`pwd` modules
